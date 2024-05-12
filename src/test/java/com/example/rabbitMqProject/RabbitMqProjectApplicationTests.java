@@ -8,6 +8,7 @@ class RabbitMqProjectApplicationTests {
 
 	@Test
 	void contextLoads() {
+		Assertions.assertEquals("ABC", "ABC","Test case failed")
 	}
 
 }
